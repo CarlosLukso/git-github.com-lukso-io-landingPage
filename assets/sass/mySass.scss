@@ -1,0 +1,54 @@
+
+.canvas-interactive-wrapper {
+    position: relative;
+    height: 100vh !important;
+    text-align: center;
+    #canvas-basic {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    .container{
+    	.content-center{
+    		position: absolute;
+		    top: 50%;
+		    left: 50%;
+		    -ms-transform: translate(-50%, -50%);
+		    -webkit-transform: translate(-50%, -50%);
+		    transform: translate(-50%, -50%);
+		    text-align: center;
+		    padding: 0 15px;
+		    color: #FFFFFF;
+		    width: 125%;
+		    max-width: 880px;
+			.n-logo {
+			    max-width: 170px;
+			    margin-top: 20%;
+			    margin-bottom: 40px;
+			}
+    	}
+    }
+}
+
+.btn, .navbar .navbar-nav>a.btn {
+    border-width: 2px;
+    font-weight: 400;
+    font-size: 0.8571em;
+    line-height: 1.35em;
+    margin: 5px 1px;
+    border: none;
+    border-radius: 0.1875rem;
+    padding: 11px 22px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: white solid thin;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn.active, .btn:active:focus, .btn:active:hover, .btn.active:focus, .btn.active:hover, .show>.btn.dropdown-toggle, .show>.btn.dropdown-toggle:focus, .show>.btn.dropdown-toggle:hover, .navbar .navbar-nav>a.btn:hover, .navbar .navbar-nav>a.btn:focus, .navbar .navbar-nav>a.btn:active, .navbar .navbar-nav>a.btn.active, .navbar .navbar-nav>a.btn:active:focus, .navbar .navbar-nav>a.btn:active:hover, .navbar .navbar-nav>a.btn.active:focus, .navbar .navbar-nav>a.btn.active:hover, .show>.navbar .navbar-nav>a.btn.dropdown-toggle, .show>.navbar .navbar-nav>a.btn.dropdown-toggle:focus, .show>.navbar .navbar-nav>a.btn.dropdown-toggle:hover {
+    background-color: #FFFFFF;
+    color: #eb5774;
+    box-shadow: none;
+}
